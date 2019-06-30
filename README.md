@@ -14,6 +14,9 @@ If you want to download just one video instead of a playlist then just install p
 The Code:
 
 `from pytube import YouTube
+
 yt = YouTube("") # Video Url
+
 yt = yt.get('mp4', '720p') #settings
+
 yt.download('') # path to download directory`
